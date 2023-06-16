@@ -4,7 +4,7 @@ export default function Dashboard() {
 
     return (
         <View style={signin.container}>
-            <Text style={signin.text}></Text>
+            <Text style={signin.text}>Pagina de exemplo / dashboard</Text>
         </View>
     );
 }
