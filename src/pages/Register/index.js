@@ -32,24 +32,12 @@ export default function Register() {
                     onChangeText={onChangePassword}
                     secureTextEntry
                 />
-                <TextInput
-                    style={signup.input}
-                    value={confirmPassword}
-                    placeholder="Confirmar senha"
-                    onChangeText={onChangeConfirmPassword}
-                    secureTextEntry
-                />
             </View>
             <View>
                 <Link
                     style={signup.signup__link}
                     to={{ screen: 'Dashboard' }}>
                     Login
-                </Link>
-                <Link
-                    style={signup.forgotPassword__link}
-                    to={{ screen: 'ForgotPassword' }}>
-                    Esqueceu sua senha?
                 </Link>
             </View>
         </View>
